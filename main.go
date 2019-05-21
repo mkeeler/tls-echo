@@ -12,8 +12,6 @@ import (
 )
 
 func main() {
-	log.SetFlags(log.Lshortfile)
-
 	certPath := "server.crt"
 	keyPath := "server.key"
 	listen := ":443"
